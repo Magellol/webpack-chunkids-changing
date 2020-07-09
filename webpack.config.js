@@ -17,6 +17,8 @@ const config = {
     },
     optimization: {
         minimize: false,
+        chunkIds: "named",
+        moduleIds: "hashed",
         splitChunks: {
             chunks: 'all',
             minSize: 0,
